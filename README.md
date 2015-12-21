@@ -12,6 +12,6 @@ g++ --std=c++0x parser.cpp SHA256.cpp -o parser
 ./parser B
 ```
 
-where B is an integer, files ```blk0000X.dat``` will be parsed, where ```0 <= X < B```.
+where B is an integer, files ```blocks/blk0000X.dat``` will be parsed, where ```0 <= X < B```.
 
 
